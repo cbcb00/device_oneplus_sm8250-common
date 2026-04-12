@@ -259,6 +259,10 @@ PRODUCT_PACKAGES += \
     OPlusSystemUIResCommon \
     WifiResTarget
 
+# Remove Packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # Partitions
 PRODUCT_PACKAGES += \
     vendor_bt_firmware_mountpoint \
