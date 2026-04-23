@@ -16,7 +16,8 @@ LOCAL_OVERRIDES_PACKAGES += \
     talkback \
     YouTube \
     Accord \
-    FossifyGallery
+    FossifyGallery \
+    FilesPrebuilt
 
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
