@@ -6,9 +6,9 @@ LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
 
 LOCAL_OVERRIDES_PACKAGES += \
-    CalculatorGoogle \
-    CalendarGoogle \
-    Chrome64 \
+    CalculatorGooglePrebuilt_85006267 \
+    CalendarGooglePrebuilt \
+    Chrome-Stub \
     Gmail2 \
     Maps \
     Photos \
@@ -17,7 +17,10 @@ LOCAL_OVERRIDES_PACKAGES += \
     YouTube \
     Accord \
     FossifyGallery \
-    FilesPrebuilt
+    FilesPrebuilt \
+    PlayAutoInstallConfig \
+    GeminiShell_227
+
 
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
